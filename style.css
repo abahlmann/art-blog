@@ -1,0 +1,89 @@
+h1, h2, h4{
+    font-family: 'Comfortaa', cursive;
+}
+
+p, h3{
+    font-family: 'EB Garamond', serif;
+}
+
+/* main article heading */
+h1{
+    margin-top:1em;
+    font-size: 2.5em;
+    color:#f40c00;
+}
+
+/* sub article heading */
+h2{
+    margin-top:1.5em;
+    font-size:1.5em;
+    color:#ff7b74;
+}
+
+/* sub main article heading */
+h3{
+    font-size:1em;
+    color:#ff7b74;
+    font-style: italic;
+}
+
+/* example problem heading */
+h4{
+    font-size:1em;
+    color: #f40c00;
+    font-style:bold;
+    border-radius: 6.5px;
+    padding-top:1em;
+    padding-bottom:1.5em;
+    line-height: 1.5em;
+
+}
+
+p{
+    color: #41100e;
+    padding:1em 0.5em;
+    font-size:1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+#main{
+    padding:1em;
+    margin: 1em 1.5em 0.5em 2.5em;
+}
+
+.flex-box{
+    display:inline-flex;
+    justify-content: space-evenly;
+}
+
+.figure-txt{
+    width:90%;
+    color: #ff7b74;
+    float:left;
+}
+
+.figure{
+    width:100%;
+}
+
+.example{
+    border: dotted 0.5px #ff7b74;
+    border-radius:4px;
+    display:inline-block;
+    padding:1.5em 2.5em;
+    margin: 2.5em 4em 0.5em 2.5em;
+}
+
+.example-head{
+    text-align:center;
+}
+
+.step{
+    margin:0.5em;
+    padding:1em;
+    border: dotted 0.5px #f40c00;
+    border-radius:6.5px;
+    width:45%;
+
+}
